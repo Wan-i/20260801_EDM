@@ -162,8 +162,9 @@ a img,li {
 	background-position:top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
-	max-width: 100%;
-    /*overflow: hidden;
+	background-size: 100% auto;
+	/*max-width: 100%;
+    overflow: hidden;
     background-size: contain;*/
 } 
   
