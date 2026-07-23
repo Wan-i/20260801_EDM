@@ -1,6 +1,17 @@
 @charset "big5";
 /* CSS Document */
-body {background: #f7f3ef!important; margin: 0 auto!important; /*text-align: center;*/}
+body {
+    margin: 0;
+    padding: 0;
+    background: #f6f2ee;
+    background-image: url("edm_bg.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .Area_top .momologo { left: 40px!important; }
 .Area_top .momologo a:hover{ transform: scale(1)!important;}
 .Area_top .momologo a {
@@ -11,19 +22,13 @@ body {background: #f7f3ef!important; margin: 0 auto!important; /*text-align: cen
 }
 #particles-js { position: fixed; z-index: 0; mix-blend-mode: plus-lighter; filter: blur(3px);}
 
-.momostyle_bg { 
+/*.momostyle_bg { 
 	background-image:url("edm_bg.jpg");
 	background-position:top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
-	background-size: cover;
-    /*max-width: 2000px;
-    margin: auto;
-    overflow: hidden;
-    font-size: 0;
-    display: block;*/
-
-}
+	background-size: 100% auto;
+}*/
 
 .js-REG_regImg_pc { height: auto!important;}
 
@@ -59,7 +64,7 @@ a img,li {
 }
 
 
-.momostyle_edm_kv { width: 100%; margin: auto; position: relative; background-color: #f7f3ef;}
+.momostyle_edm_kv { width: 100%; margin: auto; position: relative; background-color: #f6f2ee;}
 .momostyle_edm_kv > img,
 .momostyle_edm_kv > span { display: block; position: absolute; margin: auto;}
 
@@ -131,9 +136,9 @@ a img,li {
 .momostyle_edm_list { margin:0 auto 2% auto; position: relative; z-index: 0;}
 .momostyle_edm_list ul { width: calc(100% - 4%); padding:2%; margin:0; display: inline-block; background-repeat: no-repeat;}
 .momostyle_edm_list ul li{ width: calc(100% / 3 - 1%); margin:0.5%; vertical-align: bottom;}
-.edm_list_a ul { background-color: #2685c7;}
-.edm_list_b ul { background-color: #2685c7;}
-.edm_list_c ul { background-color: #2685c7;}
+.edm_list_a ul { background-color: #8fc4e7;}
+.edm_list_b ul { background-color: #8fc4e7;}
+.edm_list_c ul { background-color: #8fc4e7;}
 
 
 .edm_list_bn { max-width: 1220px; margin:5% auto 0 auto;}
@@ -157,14 +162,14 @@ a img,li {
 .Area_top .momologo {
     display: none;
 }
-.momostyle_bg { 
+/*.momostyle_bg { 
 	background-image:url("edm_bg_m.jpg");
 	background-position:top center;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
     max-width: 100%;
     overflow: hidden;
     background-size: contain;
-} 
+} */
   
     
     
