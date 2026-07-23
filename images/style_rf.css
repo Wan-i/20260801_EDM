@@ -1,6 +1,6 @@
 @charset "big5";
 /* CSS Document */
-body {background: #d7f3fe!important; margin: 0 auto!important; /*text-align: center;*/}
+body {background: #f7f3ef!important; margin: 0 auto!important; /*text-align: center;*/}
 .Area_top .momologo { left: 40px!important; }
 .Area_top .momologo a:hover{ transform: scale(1)!important;}
 .Area_top .momologo a {
@@ -59,7 +59,7 @@ a img,li {
 }
 
 
-.momostyle_edm_kv { width: 100%; margin: auto; position: relative; background-color: #d7f3fe;}
+.momostyle_edm_kv { width: 100%; margin: auto; position: relative; background-color: #f7f3ef;}
 .momostyle_edm_kv > img,
 .momostyle_edm_kv > span { display: block; position: absolute; margin: auto;}
 
@@ -160,12 +160,10 @@ a img,li {
 .momostyle_bg { 
 	background-image:url("edm_bg_m.jpg");
 	background-position:top center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: 100% auto;
-	/*max-width: 100%;
+	background-repeat: repeat-y;
+    max-width: 100%;
     overflow: hidden;
-    background-size: contain;*/
+    background-size: contain;
 } 
   
     
