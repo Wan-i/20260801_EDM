@@ -154,26 +154,23 @@ a img,li {
 }
 
 @media screen and (max-width:767px){
-.Area_top .momologo {
-    display: none;
-}
-.momostyle_bg { 
-	position: relative;
-} 
-.momostyle_bg::before {
-	content: "";
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url("edm_bg_m.jpg");
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: -1;
-	pointer-events: none;
-}
+  .momostyle_bg { 
+      position: relative;
+  } 
+  .momostyle_bg::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("edm_bg_m.jpg");
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: 100% auto; /* 關鍵修改：讓寬度 100% 滿版，高度等比例縮放 */
+      z-index: -1;
+      pointer-events: none;
+  }
   
     
     
